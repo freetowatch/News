@@ -1,34 +1,5 @@
 {
   "rewrites": [
-    {
-      "source": "/page1",
-      "destination": "/main.html"
-    },
-    {
-      "source": "/page2",
-      "destination": "/movie_details.html"
-    },
-    {
-      "source": "/page3",
-      "destination": "/New.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/release date.html"
-    },
-    {
-      "source": "/page3",
-      "destination": "/results.html"
-    },{
-      "source": "/page3",
-      "destination": "/search.html"
-    },{
-      "source": "/page3",
-      "destination": "/systeme.html"
-    },
-    {
-      "source": "/page3",
-      "destination": "/Trailers.html"
-    }
+    {"source": "/(.*)", "destination": "/Trailers.html"}
   ]
 }
